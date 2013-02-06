@@ -1,0 +1,139 @@
+
+if rest.temp.over.100 is yes
+then fever is yes
+
+if active.temp.over.101 is yes
+then fever is yes
+
+if clear.nasal.discharge is yes
+and scratchy.throat is yes
+then cold is yes
+
+if cold is yes
+and much.cough is yes
+and squeaky.breath is yes
+and vibration.chest is yes
+and fever is yes
+then type.disease is bronchitis
+
+if high.fever is yes
+and rapid.breathing is yes
+and cough is yes
+then type.disease is pneumonia
+
+if hoarse.cough is yes
+and difficulty.breathing is yes
+and fever is yes
+and cold is yes
+then type.disease is severe.croup
+       
+if hoarse.cough is yes
+and difficulty.breathing is yes
+then type.disease is croup
+
+if cough.when.move is yes
+and sinus.pain is yes
+then type.disease is sinusitis
+
+if high.fever is yes
+and headache is yes
+and vomiting is yes
+and tonsils.swollen is yes
+then type.disease is tonsillitis
+
+if sneeze is yes
+and itchy.nose is yes
+then type.disease is allergy
+
+if cold is yes
+and wheezing is yes
+then type.disease is asthmatic.bronchitis
+
+if itching is yes
+and hives.rash is yes
+then type.disease is hives
+
+if eczema is yes 
+then type.disease is eczema
+
+if cold is yes
+and fever is yes
+and measle.rash is yes
+then type.disease is measles
+
+if measle.rash is yes
+then type.disease is german.measles
+
+if pox.rash is yes
+then type.disease is chicken.pox
+
+if headache is yes
+and fever is yes
+and vomiting is yes
+and sore.throat is yes
+and scarlet.rash is yes
+then type.disease is scarlet.fever
+
+if prickly.rash is yes
+then type.disease is prickly.heat
+
+if itching is yes
+and scabies.rash is yes
+then type.disease is scabies
+
+if ringworm.rash is yes
+then type.disease is ringworm
+
+if impetigo.rash is yes
+then type.disease is impetigo
+
+if itching is yes
+and ivy.rash is yes
+then type.disease is poison.ivy
+
+if cold is yes
+and delayed.cough is yes
+then type.disease is whooping.cough
+
+if neck.swelling is yes
+then type.disease is mumps
+
+if sore.throat is yes
+and fever is yes
+and dirty.white.patches is yes
+then type.disease is diptheria
+
+if fever is yes
+and headache is yes
+and touch.to.chest is yes
+then type.disease is anterior.poliomyelitis
+
+if fatigue is yes
+and fever is yes
+and cough is yes
+and sputum is yes
+then type.disease is tuberculosis
+
+if fever is yes
+and fatigue is yes
+and tender.joints is yes
+then type.disease is rheumatic.fever
+
+if nervous.disease is yes
+then type.disease is chorea
+
+if naval.pain is yes
+and tender.abdomen is yes
+then type.disease is appendicitis
+
+if inflammed.ears is yes
+and fever is yes
+then type.disease is serious.ear.infection
+
+if inflammed.ears is yes
+then type.disease is ear.infection
+
+if high.fever is yes
+then type.disease is roseola
+
+

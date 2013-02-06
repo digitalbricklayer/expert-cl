@@ -1,0 +1,56 @@
+if eating_material vegetation
+then eating_habit herbivore
+
+if eating_material meat
+then eating_habit carnivorous
+
+if eating_material vegetation_and_meat
+then eating_habit omnivore
+
+if eating_habit herbivore
+ and skin wool
+ and legs four
+ and locomotion walk
+then subject sheep
+
+if subject sheep
+then species mammal
+
+if eating_habit herbivore
+ and skin hairy
+ and legs four
+ and locomotion walk
+ and colour black_and_white
+then subject zebra
+
+if subject zebra
+then species mammal
+
+if eating_habit omnivore
+ and legs two
+ and skin smooth
+ and locomotion walk
+ and colour pink
+then subject man
+
+if subject man
+then species mammal
+
+if  eating_habit herbivore
+ and skin feathers
+ and legs two
+ and locomotion fly
+then subject albatross
+
+if eating_habit carnivorous
+ and locomotion swim
+ and skin feathers
+ and legs two
+then subject penguin
+
+if subject penguin
+then species bird
+
+if subject albatross
+then species bird
+

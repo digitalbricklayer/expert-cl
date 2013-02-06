@@ -1,0 +1,334 @@
+if backbone yes
+then superphylum backbone
+
+if backbone  no
+then superphylum jellyback
+
+if superphylum backbone
+ and warm.blooded yes
+then phylum warm
+
+if superphylum backbone
+ and warm.blooded no
+then phylum cold
+
+if phylum warm
+ and has.breasts yes
+then class breasts
+
+if phylum warm
+ and has.breasts  no
+then type.animal  bird
+
+if class  breasts
+ and can.eat.meat  yes
+then order meat
+
+if class breasts
+ and can.eat.meat  no
+then order  vegy
+
+if order  meat
+ and finger.wings yes
+then type.animal bat
+
+if order  meat
+ and finger.wings no
+then family nowings
+
+if family nowings
+ and opposing.thumb yes
+then genus thumb
+
+if family  nowings
+ and opposing.thumb  no
+then genus  nothumb
+
+if genus  thumb
+ and prehensile.tail  yes
+then type.animal  monkey
+
+if genus  thumb
+ and prehensile.tail  no
+then species  notail
+
+if species  notail
+ and nearly.hairless yes
+then type.animal  man
+
+if species  notail
+ and nearly.hairless  no
+then subspecies  hair
+
+if subspecies  hair
+ and long.powerful.arms  yes
+then type.animal orangutan
+
+if subspecies  hair
+and long.powerful.arms no
+then type.animal baboon
+
+if genus nothumb
+and over.400  yes
+then species 400
+
+if genus  nothumb
+and over.400 no
+then species under400
+
+if species 400
+and land.based yes
+then type.animal  bear
+
+if species  400
+and land.based  no
+then type.animal  walrus
+
+if species  under400
+and thintail yes
+then type.animal  cat
+
+if species under400
+and thintail no
+then type.animal wolf
+
+if order vegy
+and hooves yes
+then family hooves
+
+if order vegy
+and hooves  no
+then family  feet
+
+if family  hooves
+and two.toes  yes
+then genus  twotoes
+
+if family  hooves
+and two.toes no
+then genus onetoe
+
+if genus twotoes
+and horns  yes
+then species  horns
+
+if genus twotoes
+and horns  no
+then species nohorns
+
+if species  horns
+and one.horn  yes
+then type.animal hippopotamus
+
+if species  horns
+and one.horn  no
+then subspecies nohorn
+
+if subspecies nohorn
+and fleece  yes
+then type.animal sheep/goat
+
+if subspecies  nohorn
+and fleece no
+then subsubspecies nofleece
+
+if subsubspecies nofleece
+and domesticated  yes
+then type.animal  cow
+
+if subsubspecies  nofleece
+and domesticated  no
+then type.animal  deer
+
+if species nohorns
+and lives.in.desert  yes
+then type.animal camel
+
+if species nohorns
+and lives.in.desert no
+then type.animal giraffe
+
+if genus  onetoe
+and plating  yes
+then type.animal rhinoceros
+
+if genus  onetoe
+and plating no
+then type.animal horse
+
+if family  feet
+and live.in.water yes
+then genus water
+
+if family feet
+and live.in.water no
+then genus dry
+
+if genus  water
+and gills yes
+then type.animal whale
+
+if genus  water
+and gills no
+then type.animal dolphin
+
+if genus dry
+and front.teeth yes
+then species teeth
+
+if genus  dry
+and front.teeth no
+then species  noteeth
+
+if species  teeth
+and large.ears yes
+then type.animal rabbit
+
+if species teeth
+and large.ears  no
+the type.animal  rat
+
+if species noteeth
+and pouch yes
+then type.animal  kangaroo
+
+if species  noteeth
+and pouch no
+then type.animal  mole
+
+if phylum cold
+and always.in.water  yes
+then class water
+
+if phylum cold
+and always.in.water  no
+then class dry
+
+if class water
+and boney yes
+then type.animal fish
+
+if class is water 
+and boney no
+then type.animal shark
+
+if class  dry
+and scally  yes
+then order scales
+
+if class  dry
+and scally  no
+then order  soft
+
+if order  scales
+and rounded.shell  yes
+then type.animal turtle
+
+if order  scales
+and rounded.shell  no
+then family  noshell
+
+if family  noshell
+and limbs  yes
+then type.animal  crocodile
+
+if family  noshell
+and limbs  no
+then type.animal  snake
+
+if order  soft
+and jump  yes
+then type.animal  frog
+
+if order  soft
+and jump  no
+then type.animal  salamander
+
+if superphylum  jellyback
+and live.prime.in.soil  yes
+then phylum  soil
+
+if superphylum  jellyback
+and live.prime.in.soil  no
+then phylum elsewhere
+
+if phylum  soil
+and flat.bodied  yes
+then type.animal flatworm
+
+if phylum  soil
+and flat.bodied  no
+then type.animal  worm
+
+if phylum elsewhere
+and body.in.segments  yes
+then class  segments
+
+if phylum  elsewhere
+and body.in.segments  no
+then class  unified
+
+if class  segments
+and shell yes
+then order shell
+
+if class segments
+and shell no
+then type.animal  centiped
+
+if order  shell
+and tail yes
+then type.animal lobster
+
+if order  shell
+and tail  no
+then type.animal crab
+
+if class unified
+and digest.cells  yes
+then order  cells
+
+if class unified
+and digest.cells  no
+then order  stomach
+
+if order cells
+and stationary  yes
+then family  stationary
+
+if order  cells
+and stationary  no
+then type.animal jellyfish
+
+if family stationary
+and spikes  yes
+then type.animal sea.anemone
+
+if family  stationary
+and spikes  no
+then type.animal  coral
+
+if order  stomach
+and multicelled  yes
+then family  multicelled
+
+if order stomach
+and multicelled  no
+then type.animal  protozoa
+
+if family  multicelled
+and spiral.shell  yes
+then type.animal  snail
+
+if family  multicelled
+and spiral.shell  no
+then genus  noshell
+
+if genus  noshell
+and bivalve  yes
+then type.animal  clam
+
+if genus  noshell
+and bivalve no
+then type.animal  squid
+

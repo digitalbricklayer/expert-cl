@@ -1,0 +1,57 @@
+if appearance pus_filled_spots
+ and temperature normal
+ and looks_like weeping
+then ailment impetigo
+
+if appearance small_pink_spots
+ and temperature feverish
+then ailment german_measles
+
+if appearance blotchy_red_areas
+ and temperature feverish
+then ailment measles
+ and meantime put_on_lotion
+
+if appearance clear_skin
+ and temperature normal
+ and looks_like not_weeping
+then ailment patient_ok
+
+if ailment german_measles
+ and status oap
+then recommendation go_to_hospital
+
+if ailment german_measles
+ and status  not_oap
+then recommendation see_doctor
+
+if ailment impetigo
+ and status oap
+then recommendation see_doctor
+
+if ailment measles
+then recommendation see_doctor
+
+if recommendation no_treatment
+then action don't_go_to_doctor
+
+if recommendation go_to_hospital
+then action keep_warm
+
+if ailment measles
+then action do_not_scratch
+
+if action do_not_scratch
+then make_sure your_warm
+
+if make_sure your_warm
+ and status oap
+then get blanket
+ and wear blanket
+
+if ailment patient_ok
+then wear blanket
+
+if ailment german_measles
+then wear blanket
+
